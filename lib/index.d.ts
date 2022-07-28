@@ -1,6 +1,6 @@
-export default interface bencode {
+export default {
     // todo: stricter typing?
-    encode(data: any, buffer?: Buffer, offest?: number): Buffer;
+    encode(data: any, buffer?: Buffer, offest?: number): Buffer,
 
     decode(data: Buffer | string, start?: number, end?: number, encoding?: any): any;
 }

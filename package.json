@@ -2,6 +2,8 @@
   "name": "@ckcr4lyf/bencode-esm",
   "version": "0.0.1",
   "description": "ESM first fork of node-bencode",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "exports": {
     ".": {
      "default": "./lib/index.js",
