@@ -4,15 +4,29 @@
   "description": "ESM first fork of node-bencode",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
      "default": "./lib/index.js",
      "types": "./lib/index.d.ts"
     }
   },
+  "homepage": "https://github.com/ckcr4lyf/bencode-esm",
+  "bugs": {
+    "url": "https://github.com/ckcr4lyf/bencode-esm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ckcr4lyf/bencode-esm.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "torrents",
+    "bencoding",
+    "bittorrent"
+  ],
   "author": "Raghu Saxena",
-  "license": "ISC"
+  "license": "MIT"
 }
