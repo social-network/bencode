@@ -2,7 +2,9 @@
   "name": "@ckcr4lyf/bencode-esm",
   "version": "0.0.1",
   "description": "ESM first fork of node-bencode",
-  "main": "index.js",
+  "exports": {
+    "default": "./lib/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
