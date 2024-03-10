@@ -1,6 +1,6 @@
 {
-  "name": "@ckcr4lyf/bencode-esm",
-  "version": "0.0.2",
+  "name": "@social-network/bencode",
+  "version": "1.0.0",
   "description": "ESM first fork of node-bencode",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,13 +11,13 @@
      "types": "./lib/index.d.ts"
     }
   },
-  "homepage": "https://github.com/ckcr4lyf/bencode-esm",
+  "homepage": "https://github.com/social-network/bencode",
   "bugs": {
-    "url": "https://github.com/ckcr4lyf/bencode-esm/issues"
+    "url": "https://github.com/social-network/bencode/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ckcr4lyf/bencode-esm.git"
+    "url": "git://github.com/social-network/bencode.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,6 @@
     "bencoding",
     "bittorrent"
   ],
-  "author": "Raghu Saxena",
+  "author": "The Social Network",
   "license": "MIT"
 }
